@@ -19,7 +19,7 @@ const Register = () => {
    //console.log(studentsDetails);
 
     try {
-      const response = await fetch("http://localhost:8080/api/students/register", {
+      const response = await fetch("http://40.192.100.235:8080/api/students/register", {
         method: "POST",
         credentials: "include",
         headers: {
