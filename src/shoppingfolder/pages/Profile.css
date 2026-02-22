@@ -1,0 +1,37 @@
+.profile-container {
+  padding: 10px;
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.profile-table th,
+.profile-table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
+.profile-table th {
+  background-color: #f4f4f4;
+}
+
+.edit-btn {
+  background-color: #0e24b4;
+  color: white;
+  gap:10px;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #333;
+  color: white;
+}
